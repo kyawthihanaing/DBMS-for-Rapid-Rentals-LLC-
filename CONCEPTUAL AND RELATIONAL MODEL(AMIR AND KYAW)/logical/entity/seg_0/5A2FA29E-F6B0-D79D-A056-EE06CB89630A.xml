@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5A2FA29E-F6B0-D79D-A056-EE06CB89630A" name="TRANSACTION">
+<createdBy>ASUS</createdBy>
+<createdTime>2020-02-22 12:07:59 UTC</createdTime>
+<ownerDesignName>CONCEPTUAL AND RELATIONAL MODEL(AMIR AND KYAW)</ownerDesignName>
+<engineerTo>
+<item key="16661017-87B5-3A22-349B-2AD572C861B4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="TRANSACTION_ID" id="68D86FF7-F071-B1C0-5ED4-FB37A5B1FF7B">
+<createdBy>ASUS</createdBy>
+<createdTime>2020-02-22 13:51:18 UTC</createdTime>
+<ownerDesignName>CONCEPTUAL AND RELATIONAL MODEL(AMIR AND KYAW)</ownerDesignName>
+<engineerTo>
+<item key="16661017-87B5-3A22-349B-2AD572C861B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PAYEE_ID" id="CAF6D1BD-BA6E-350A-6C76-7CC6CDE33790">
+<createdBy>ASUS</createdBy>
+<createdTime>2020-02-22 13:51:45 UTC</createdTime>
+<ownerDesignName>CONCEPTUAL AND RELATIONAL MODEL(AMIR AND KYAW)</ownerDesignName>
+<engineerTo>
+<item key="16661017-87B5-3A22-349B-2AD572C861B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RATE_PER_NIGHT" id="EE4EEA86-C6E0-0615-C4F0-F912C74EDEAA">
+<createdBy>ASUS</createdBy>
+<createdTime>2020-02-22 13:52:23 UTC</createdTime>
+<ownerDesignName>CONCEPTUAL AND RELATIONAL MODEL(AMIR AND KYAW)</ownerDesignName>
+<engineerTo>
+<item key="16661017-87B5-3A22-349B-2AD572C861B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TOTAL_AMOUNT" id="BFB12D0D-4024-9009-100A-C46F5F03C079">
+<createdBy>ASUS</createdBy>
+<createdTime>2020-03-12 14:48:18 UTC</createdTime>
+<ownerDesignName>CONCEPTUAL AND RELATIONAL MODEL(AMIR AND KYAW)</ownerDesignName>
+<engineerTo>
+<item key="16661017-87B5-3A22-349B-2AD572C861B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DISCOUNTED_AMOUNT" id="FD8864F0-7B30-4377-CF4E-5E230715D85B">
+<createdBy>ASUS</createdBy>
+<createdTime>2020-03-17 02:45:28 UTC</createdTime>
+<ownerDesignName>CONCEPTUAL AND RELATIONAL MODEL(AMIR AND KYAW)</ownerDesignName>
+<engineerTo>
+<item key="16661017-87B5-3A22-349B-2AD572C861B4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AMOUNT_PAID" id="FA92D1A6-1C47-5A28-E7B0-4F75B9EE56D5">
+<createdBy>ASUS</createdBy>
+<createdTime>2020-02-22 13:53:42 UTC</createdTime>
+<ownerDesignName>CONCEPTUAL AND RELATIONAL MODEL(AMIR AND KYAW)</ownerDesignName>
+<engineerTo>
+<item key="16661017-87B5-3A22-349B-2AD572C861B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="STATUS" id="0EAAE565-AA48-1227-1681-74F9644D7BAE">
+<createdBy>ASUS</createdBy>
+<createdTime>2020-02-22 13:54:04 UTC</createdTime>
+<ownerDesignName>CONCEPTUAL AND RELATIONAL MODEL(AMIR AND KYAW)</ownerDesignName>
+<engineerTo>
+<item key="16661017-87B5-3A22-349B-2AD572C861B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PAYMENT_DATE" id="C8AFD163-A209-81FD-AD1D-73E85D1EA73A">
+<createdBy>ASUS</createdBy>
+<createdTime>2020-03-02 07:56:16 UTC</createdTime>
+<ownerDesignName>CONCEPTUAL AND RELATIONAL MODEL(AMIR AND KYAW)</ownerDesignName>
+<engineerTo>
+<item key="16661017-87B5-3A22-349B-2AD572C861B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8AC062B0-85FE-42CF-929F-30C28BFE52E9" name="TRANSACTION PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2020-02-22 13:52:31 UTC</createdTime>
+<ownerDesignName>CONCEPTUAL AND RELATIONAL MODEL(AMIR AND KYAW)</ownerDesignName>
+<engineerTo>
+<item key="16661017-87B5-3A22-349B-2AD572C861B4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>68D86FF7-F071-B1C0-5ED4-FB37A5B1FF7B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

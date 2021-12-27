@@ -1,0 +1,149 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DF7BAB4E-A7C8-CE01-4E77-E364CDE380A8" name="TRANSACTION">
+<createdBy>ASUS</createdBy>
+<createdTime>2020-03-12 03:19:48 UTC</createdTime>
+<generatorID>5A2FA29E-F6B0-D79D-A056-EE06CB89630A</generatorID>
+<ownerDesignName>CONCEPTUAL AND RELATIONAL MODEL(AMIR AND KYAW)</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TRANSACTION_ID" id="C944EAE1-2434-33A3-4A55-418321A93D67">
+<createdBy>ASUS</createdBy>
+<createdTime>2020-03-12 03:19:48 UTC</createdTime>
+<generatorID>68D86FF7-F071-B1C0-5ED4-FB37A5B1FF7B</generatorID>
+<ownerDesignName>CONCEPTUAL AND RELATIONAL MODEL(AMIR AND KYAW)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAYEE_ID" id="DFE971DD-CD97-58F3-EC61-286166FF09CE">
+<createdBy>ASUS</createdBy>
+<createdTime>2020-03-12 03:19:48 UTC</createdTime>
+<generatorID>CAF6D1BD-BA6E-350A-6C76-7CC6CDE33790</generatorID>
+<ownerDesignName>CONCEPTUAL AND RELATIONAL MODEL(AMIR AND KYAW)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D8742DF9-BE78-899C-5C43-EBED24F5ED17" referredColumn="C62CA268-536E-21FA-9F50-E998C5BEA6C9"/>
+</associations>
+</Column>
+<Column name="GUEST_USER_ID" id="07D7E1F0-CB1E-5185-1B0C-7D10AA5D2AB3">
+<createdBy>ASUS</createdBy>
+<createdTime>2020-03-12 03:38:33 UTC</createdTime>
+<ownerDesignName>CONCEPTUAL AND RELATIONAL MODEL(AMIR AND KYAW)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8E14DFB0-1CC1-B44D-BF32-57ABAE854480" referredColumn="366F405C-F890-5123-D5D0-1E82100041C6"/>
+</associations>
+</Column>
+<Column name="TOTAL_AMOUNT" id="BE45C26D-4B7D-9BAB-71A2-E2C5E0440456">
+<createdBy>ASUS</createdBy>
+<createdTime>2020-03-12 14:50:27 UTC</createdTime>
+<ownerDesignName>CONCEPTUAL AND RELATIONAL MODEL(AMIR AND KYAW)</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RATE_PER_NIGHT" id="083E97AC-AE9F-8FCD-B17F-A50D3C8A1F40">
+<createdBy>ASUS</createdBy>
+<createdTime>2020-03-12 03:19:48 UTC</createdTime>
+<generatorID>EE4EEA86-C6E0-0615-C4F0-F912C74EDEAA</generatorID>
+<ownerDesignName>CONCEPTUAL AND RELATIONAL MODEL(AMIR AND KYAW)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AMOUNT_PAID" id="F1AB2792-D655-5EEF-0812-71ECF3343479">
+<createdBy>ASUS</createdBy>
+<createdTime>2020-03-12 03:19:48 UTC</createdTime>
+<generatorID>FA92D1A6-1C47-5A28-E7B0-4F75B9EE56D5</generatorID>
+<ownerDesignName>CONCEPTUAL AND RELATIONAL MODEL(AMIR AND KYAW)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATUS" id="10F9C007-D1F8-4FEB-70F3-DAD8E99D0BBC">
+<createdBy>ASUS</createdBy>
+<createdTime>2020-03-12 03:19:48 UTC</createdTime>
+<generatorID>0EAAE565-AA48-1227-1681-74F9644D7BAE</generatorID>
+<ownerDesignName>CONCEPTUAL AND RELATIONAL MODEL(AMIR AND KYAW)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAYMENT_DATE" id="88B65ABF-B66A-CB45-FBDD-5EEC12B2B962">
+<createdBy>ASUS</createdBy>
+<createdTime>2020-03-12 03:19:48 UTC</createdTime>
+<generatorID>C8AFD163-A209-81FD-AD1D-73E85D1EA73A</generatorID>
+<ownerDesignName>CONCEPTUAL AND RELATIONAL MODEL(AMIR AND KYAW)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="07B81DBB-797E-E56C-62E5-3D6BDBC4FFA7" name="TRANSACTION_PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2020-03-12 03:19:48 UTC</createdTime>
+<generatorID>8AC062B0-85FE-42CF-929F-30C28BFE52E9</generatorID>
+<ownerDesignName>CONCEPTUAL AND RELATIONAL MODEL(AMIR AND KYAW)</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C944EAE1-2434-33A3-4A55-418321A93D67"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="357429EE-366E-3847-5F02-33DC71F4AE1A" name="TRANSACTION_HOST_FK">
+<createdBy>ASUS</createdBy>
+<createdTime>2020-03-12 03:19:48 UTC</createdTime>
+<generatorID>2B66E63C-AF98-F721-79B3-A0766E78179B</generatorID>
+<ownerDesignName>CONCEPTUAL AND RELATIONAL MODEL(AMIR AND KYAW)</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DFE971DD-CD97-58F3-EC61-286166FF09CE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A81668AA-EA59-40A1-E892-860D1BF2F702" name="TRANSACTION_GUEST_FK">
+<createdBy>ASUS</createdBy>
+<createdTime>2020-03-12 03:38:33 UTC</createdTime>
+<generatorID>FD4BBABC-1676-CF05-89B8-98A56B36DD43</generatorID>
+<ownerDesignName>CONCEPTUAL AND RELATIONAL MODEL(AMIR AND KYAW)</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="07D7E1F0-CB1E-5185-1B0C-7D10AA5D2AB3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4AC73BAE-869F-FA10-F2BF-098FD3C3E16B" name="COUPON_VALIDITY">
+<createdBy>ASUS</createdBy>
+<createdTime>2020-02-22 12:09:40 UTC</createdTime>
+<ownerDesignName>CONCEPTUAL AND RELATIONAL MODEL(AMIR AND KYAW)</ownerDesignName>
+<engineerTo>
+<item key="16661017-87B5-3A22-349B-2AD572C861B4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COUPON_CODE" id="77823581-5BA3-D784-BEAD-13B228A441AE">
+<createdBy>ASUS</createdBy>
+<createdTime>2020-02-22 14:42:03 UTC</createdTime>
+<generatorID>282245F6-D2C2-E62A-8160-F6A8AD387FB2</generatorID>
+<ownerDesignName>CONCEPTUAL AND RELATIONAL MODEL(AMIR AND KYAW)</ownerDesignName>
+<engineerTo>
+<item key="16661017-87B5-3A22-349B-2AD572C861B4" value="true"/>
+</engineerTo>
+<referedAttribute>40391783-DDB5-B98D-0284-04AF96243E13</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="USER_ID" id="A835A49C-D4CD-200A-4B2C-A9665FA8D67B">
+<createdBy>ASUS</createdBy>
+<createdTime>2020-03-01 07:45:41 UTC</createdTime>
+<generatorID>EB75C5A0-48FF-4EC3-29AC-B26E7B77FA03</generatorID>
+<ownerDesignName>CONCEPTUAL AND RELATIONAL MODEL(AMIR AND KYAW)</ownerDesignName>
+<engineerTo>
+<item key="16661017-87B5-3A22-349B-2AD572C861B4" value="true"/>
+</engineerTo>
+<referedAttribute>887D6C01-44DF-5FCA-A845-81F67CBA4F57</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="START_DATE" id="FA8522C6-9C5D-C4FA-F042-B466F8C623F1">
+<createdBy>ASUS</createdBy>
+<createdTime>2020-03-11 15:05:35 UTC</createdTime>
+<ownerDesignName>CONCEPTUAL AND RELATIONAL MODEL(AMIR AND KYAW)</ownerDesignName>
+<engineerTo>
+<item key="16661017-87B5-3A22-349B-2AD572C861B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="END_DATE" id="F9E1D1EB-19D6-EA66-028A-D5EC40AD73AC">
+<createdBy>ASUS</createdBy>
+<createdTime>2020-03-11 15:05:47 UTC</createdTime>
+<ownerDesignName>CONCEPTUAL AND RELATIONAL MODEL(AMIR AND KYAW)</ownerDesignName>
+<engineerTo>
+<item key="16661017-87B5-3A22-349B-2AD572C861B4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E324C4D2-AB57-0D38-9CAC-2BF1997DB54D" name="COUPON_PERIOD PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2020-02-22 14:42:03 UTC</createdTime>
+<ownerDesignName>CONCEPTUAL AND RELATIONAL MODEL(AMIR AND KYAW)</ownerDesignName>
+<engineerTo>
+<item key="16661017-87B5-3A22-349B-2AD572C861B4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A835A49C-D4CD-200A-4B2C-A9665FA8D67B</attributeRef>
+<attributeRef>77823581-5BA3-D784-BEAD-13B228A441AE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

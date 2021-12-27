@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3C14A32B-E1D4-03C9-C553-9EC2914C4EE3" name="GUEST">
+<createdBy>ASUS</createdBy>
+<createdTime>2020-03-12 03:19:48 UTC</createdTime>
+<generatorID>C26F276D-C143-DE69-5520-5320FB83DD9E</generatorID>
+<ownerDesignName>CONCEPTUAL AND RELATIONAL MODEL(AMIR AND KYAW)</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="USER_ID" id="366F405C-F890-5123-D5D0-1E82100041C6">
+<createdBy>ASUS</createdBy>
+<createdTime>2020-03-12 03:19:48 UTC</createdTime>
+<generatorID>887D6C01-44DF-5FCA-A845-81F67CBA4F57</generatorID>
+<ownerDesignName>CONCEPTUAL AND RELATIONAL MODEL(AMIR AND KYAW)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="167F12FC-2D4C-C1AD-5E5B-861BE5745D81" referredColumn="00ED0D86-9BF7-EEAB-99C7-D10667B4CA2D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4AE2BF8C-FDF9-A20D-9E17-CEC0BDBFC63B" name="GUEST_PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2020-03-12 03:19:48 UTC</createdTime>
+<generatorID>FD4BBABC-1676-CF05-89B8-98A56B36DD43</generatorID>
+<ownerDesignName>CONCEPTUAL AND RELATIONAL MODEL(AMIR AND KYAW)</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="366F405C-F890-5123-D5D0-1E82100041C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A6F0919C-74F8-BF48-972C-15A944F054AE" name="GUEST_USER_FK">
+<createdBy>ASUS</createdBy>
+<createdTime>2020-03-12 03:19:48 UTC</createdTime>
+<generatorID>3C1963EF-8528-E3EB-79DA-01B5EF015220</generatorID>
+<ownerDesignName>CONCEPTUAL AND RELATIONAL MODEL(AMIR AND KYAW)</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="366F405C-F890-5123-D5D0-1E82100041C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

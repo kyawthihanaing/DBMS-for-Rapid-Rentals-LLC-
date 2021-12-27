@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6BB141CD-7D99-8D04-0805-B86A28C6804A" name="COUPON_VALIDITY">
+<createdBy>ASUS</createdBy>
+<createdTime>2020-03-12 03:19:48 UTC</createdTime>
+<generatorID>4AC73BAE-869F-FA10-F2BF-098FD3C3E16B</generatorID>
+<ownerDesignName>CONCEPTUAL AND RELATIONAL MODEL(AMIR AND KYAW)</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COUPON_CODE" id="4EB85611-4EC1-A25E-6B94-6BECD70199D8">
+<createdBy>ASUS</createdBy>
+<createdTime>2020-03-12 03:19:48 UTC</createdTime>
+<generatorID>77823581-5BA3-D784-BEAD-13B228A441AE</generatorID>
+<ownerDesignName>CONCEPTUAL AND RELATIONAL MODEL(AMIR AND KYAW)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="68D2CDE7-2102-1C17-095C-1D4CE78DC78F" referredColumn="3AC7BA05-A16E-01EF-9AEC-62381B4B3067"/>
+</associations>
+</Column>
+<Column name="GUEST_USER_ID" id="F88FD0A5-4600-E191-49A2-7EDF70B21F64">
+<createdBy>ASUS</createdBy>
+<createdTime>2020-03-12 03:19:48 UTC</createdTime>
+<generatorID>A835A49C-D4CD-200A-4B2C-A9665FA8D67B</generatorID>
+<ownerDesignName>CONCEPTUAL AND RELATIONAL MODEL(AMIR AND KYAW)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="601A7180-0022-4445-3C5F-FFF8991E2AF9" referredColumn="366F405C-F890-5123-D5D0-1E82100041C6"/>
+</associations>
+</Column>
+<Column name="START_DATE" id="78816676-4098-8526-F642-253D9D25246C">
+<createdBy>ASUS</createdBy>
+<createdTime>2020-03-12 03:19:48 UTC</createdTime>
+<generatorID>FA8522C6-9C5D-C4FA-F042-B466F8C623F1</generatorID>
+<ownerDesignName>CONCEPTUAL AND RELATIONAL MODEL(AMIR AND KYAW)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="END_DATE" id="4C1CD619-D606-8494-94E6-378F8878E8EF">
+<createdBy>ASUS</createdBy>
+<createdTime>2020-03-12 03:19:48 UTC</createdTime>
+<generatorID>F9E1D1EB-19D6-EA66-028A-D5EC40AD73AC</generatorID>
+<ownerDesignName>CONCEPTUAL AND RELATIONAL MODEL(AMIR AND KYAW)</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D131133D-9F32-A5C4-AC2D-2C19B987E60B" name="COUPON_VALIDITY_PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2020-03-12 03:19:48 UTC</createdTime>
+<generatorID>E324C4D2-AB57-0D38-9CAC-2BF1997DB54D</generatorID>
+<ownerDesignName>CONCEPTUAL AND RELATIONAL MODEL(AMIR AND KYAW)</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F88FD0A5-4600-E191-49A2-7EDF70B21F64"/>
+<colUsage columnID="4EB85611-4EC1-A25E-6B94-6BECD70199D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="498D97C7-786F-CD45-4EF7-C880D87CCA46" name="COUPON_VALIDITY__UN">
+<createdBy>ASUS</createdBy>
+<createdTime>2020-03-12 04:00:17 UTC</createdTime>
+<ownerDesignName>CONCEPTUAL AND RELATIONAL MODEL(AMIR AND KYAW)</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4EB85611-4EC1-A25E-6B94-6BECD70199D8"/>
+<colUsage columnID="F88FD0A5-4600-E191-49A2-7EDF70B21F64"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="84ABD168-B601-B178-FDB2-9FA615F7413E" name="COUPON_VALIDITY_COUPON_FK">
+<createdBy>ASUS</createdBy>
+<createdTime>2020-03-12 03:19:48 UTC</createdTime>
+<generatorID>282245F6-D2C2-E62A-8160-F6A8AD387FB2</generatorID>
+<ownerDesignName>CONCEPTUAL AND RELATIONAL MODEL(AMIR AND KYAW)</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4EB85611-4EC1-A25E-6B94-6BECD70199D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E48EE0F2-32D5-33B3-D11C-7D0253B861C0" name="COUPON_VALIDITY_GUEST_FK">
+<createdBy>ASUS</createdBy>
+<createdTime>2020-03-12 03:19:48 UTC</createdTime>
+<generatorID>EB75C5A0-48FF-4EC3-29AC-B26E7B77FA03</generatorID>
+<ownerDesignName>CONCEPTUAL AND RELATIONAL MODEL(AMIR AND KYAW)</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F88FD0A5-4600-E191-49A2-7EDF70B21F64"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

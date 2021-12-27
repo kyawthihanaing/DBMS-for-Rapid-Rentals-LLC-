@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F85F426F-960C-5EEE-B893-9433451B9A9A" containerWithKeyObject="B5A2FDE6-D86C-D322-0B50-F18E1444325D" localFKIndex="98DD1EB2-D9D8-6132-1174-51DC3E5F0560" name="RESERVATION_SPACE_FK">
+<createdBy>ASUS</createdBy>
+<createdTime>2020-03-12 03:19:48 UTC</createdTime>
+<generatorID>B562E861-5BDE-3E27-A301-2FBA9F61E005</generatorID>
+<ownerDesignName>CONCEPTUAL AND RELATIONAL MODEL(AMIR AND KYAW)</ownerDesignName>
+<referredTableLongName>SPACE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3D185613-31B7-8709-3612-9FA0AA267196</referredTableID>
+<keyObject>48D46984-C82D-57C1-5F5A-E859690712E6</keyObject>
+<referredKeyID>48D46984-C82D-57C1-5F5A-E859690712E6</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>SPACE_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

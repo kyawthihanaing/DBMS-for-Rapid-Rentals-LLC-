@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F2C0AD4D-C690-A094-1B15-3CA305A4F6B5" containerWithKeyObject="C682A2A5-2B75-9F2D-CDDF-F40E8EB58225" localFKIndex="61E697B9-983E-6B50-F325-DB5D9DCF5181" name="GUEST_REVIEW_FORM_REVIEW_FK">
+<createdBy>ASUS</createdBy>
+<createdTime>2020-03-12 03:19:48 UTC</createdTime>
+<generatorID>4E3BA439-7F06-EE8D-9097-385D3048E0E1</generatorID>
+<ownerDesignName>CONCEPTUAL AND RELATIONAL MODEL(AMIR AND KYAW)</ownerDesignName>
+<referredTableLongName>REVIEW</referredTableLongName>
+<arc>165381FA-AC9E-E51D-1507-C3E0C68A6F4F</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>AE239CC6-98B7-C7E0-B84C-4943391E005B</referredTableID>
+<keyObject>D756B5E0-CADD-0208-B2DC-29D107FC71F3</keyObject>
+<referredKeyID>D756B5E0-CADD-0208-B2DC-29D107FC71F3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>REVIEW_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

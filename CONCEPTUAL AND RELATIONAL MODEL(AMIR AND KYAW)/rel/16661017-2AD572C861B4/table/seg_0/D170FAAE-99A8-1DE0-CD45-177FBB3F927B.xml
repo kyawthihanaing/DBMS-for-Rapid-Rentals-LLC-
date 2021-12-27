@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D170FAAE-99A8-1DE0-CD45-177FBB3F927B" name="HOST_REVIEW_FORM">
+<createdBy>ASUS</createdBy>
+<createdTime>2020-03-12 03:19:48 UTC</createdTime>
+<generatorID>998D0312-1F18-B37C-A719-28800B8418A8</generatorID>
+<ownerDesignName>CONCEPTUAL AND RELATIONAL MODEL(AMIR AND KYAW)</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="REVIEW_ID" id="B84500ED-625B-0A36-37F1-6AFFBBB890B5">
+<createdBy>ASUS</createdBy>
+<createdTime>2020-03-12 03:19:48 UTC</createdTime>
+<generatorID>799469E2-D5A2-13B2-67E2-334263DE0431</generatorID>
+<ownerDesignName>CONCEPTUAL AND RELATIONAL MODEL(AMIR AND KYAW)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9252F2D9-38F6-D4C1-B215-BCFA2784B5BC" referredColumn="A19C1854-8021-5B00-D548-E909D2A6CADD"/>
+</associations>
+</Column>
+<Column name="OBSERVANCE_OF_HOUSE_RULES" id="53B3BA77-7CB9-6538-2846-2F478FA010FF">
+<createdBy>ASUS</createdBy>
+<createdTime>2020-03-12 03:19:48 UTC</createdTime>
+<generatorID>4B3D765D-FEFD-01AF-EF44-2B39F1353CA0</generatorID>
+<ownerDesignName>CONCEPTUAL AND RELATIONAL MODEL(AMIR AND KYAW)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,1,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RECOMMEND_TO_A_FRIEND" id="FC1CE5EC-4B91-0D67-A4E3-871AD960F304">
+<createdBy>ASUS</createdBy>
+<createdTime>2020-03-12 03:19:48 UTC</createdTime>
+<generatorID>BD3052E2-15D9-1392-546F-375569F8FA5F</generatorID>
+<ownerDesignName>CONCEPTUAL AND RELATIONAL MODEL(AMIR AND KYAW)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GUEST_USER_ID" id="6704C572-6E78-FE4D-D6CD-DCDE02EB57BD">
+<createdBy>ASUS</createdBy>
+<createdTime>2020-03-12 03:52:21 UTC</createdTime>
+<ownerDesignName>CONCEPTUAL AND RELATIONAL MODEL(AMIR AND KYAW)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="443F367E-E05D-788E-42AE-5C56806E3A53" referredColumn="366F405C-F890-5123-D5D0-1E82100041C6"/>
+</associations>
+</Column>
+<Column name="HOST_USER_ID" id="08A69BA4-C43E-91B9-F7B9-551DD6F82D18">
+<createdBy>ASUS</createdBy>
+<createdTime>2020-03-12 03:54:19 UTC</createdTime>
+<ownerDesignName>CONCEPTUAL AND RELATIONAL MODEL(AMIR AND KYAW)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8B46D508-0681-2B58-98B7-21E07792BD32" referredColumn="C62CA268-536E-21FA-9F50-E998C5BEA6C9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FA36A4CA-FBC1-8F7B-ACC3-FD59726C0967" name="HOST_REVIEW_FORM_PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2020-03-12 03:19:48 UTC</createdTime>
+<generatorID>A8B4BF3B-D1CC-B5CA-ECF0-D199842482E8</generatorID>
+<ownerDesignName>CONCEPTUAL AND RELATIONAL MODEL(AMIR AND KYAW)</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B84500ED-625B-0A36-37F1-6AFFBBB890B5"/>
+<colUsage columnID="08A69BA4-C43E-91B9-F7B9-551DD6F82D18"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A35F8172-C131-2DE9-51AC-5F991B222E46" name="HOST_REVIEW_FORM_REVIEW_FK">
+<createdBy>ASUS</createdBy>
+<createdTime>2020-03-12 03:19:48 UTC</createdTime>
+<generatorID>CCA3CA75-FD67-454E-101C-DAB570928074</generatorID>
+<ownerDesignName>CONCEPTUAL AND RELATIONAL MODEL(AMIR AND KYAW)</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B84500ED-625B-0A36-37F1-6AFFBBB890B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F7283EDF-902B-4F6B-827D-03DE58AA0631" name="HOST_REVIEW_FORM_GUEST_FK">
+<createdBy>ASUS</createdBy>
+<createdTime>2020-03-12 03:52:21 UTC</createdTime>
+<generatorID>FD4BBABC-1676-CF05-89B8-98A56B36DD43</generatorID>
+<ownerDesignName>CONCEPTUAL AND RELATIONAL MODEL(AMIR AND KYAW)</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6704C572-6E78-FE4D-D6CD-DCDE02EB57BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="327A7D5B-73D0-F651-3777-3096CC88ED1E" name="HOST_REVIEW_FORM_HOST_FK">
+<createdBy>ASUS</createdBy>
+<createdTime>2020-03-12 03:54:19 UTC</createdTime>
+<generatorID>FD4BBABC-1676-CF05-89B8-98A56B36DD43</generatorID>
+<ownerDesignName>CONCEPTUAL AND RELATIONAL MODEL(AMIR AND KYAW)</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="08A69BA4-C43E-91B9-F7B9-551DD6F82D18"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

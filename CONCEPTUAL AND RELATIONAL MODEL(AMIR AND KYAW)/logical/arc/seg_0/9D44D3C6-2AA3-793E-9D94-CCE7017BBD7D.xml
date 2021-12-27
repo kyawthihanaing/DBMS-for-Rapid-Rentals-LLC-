@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_0" id="9D44D3C6-2AA3-793E-9D94-CCE7017BBD7D" name="Arc_1">
+<createdBy>ASUS</createdBy>
+<createdTime>2020-02-22 14:01:10 UTC</createdTime>
+<ownerDesignName>ASSIGNMENT DATA MODEL</ownerDesignName>
+<engineerTo>
+<item key="16661017-87B5-3A22-349B-2AD572C861B4" value="true"/>
+</engineerTo>
+</Arc>

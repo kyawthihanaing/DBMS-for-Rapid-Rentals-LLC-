@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="861CB9CB-0082-D29A-6985-BB48A0088DB9" containerWithKeyObject="C682A2A5-2B75-9F2D-CDDF-F40E8EB58225" localFKIndex="DF14C452-5E40-FB73-FD7C-C2CB88B9379D" name="GUEST_REVIEW_FORM_GUEST_FK">
+<createdBy>ASUS</createdBy>
+<createdTime>2020-03-12 03:47:44 UTC</createdTime>
+<generatorID>FD4BBABC-1676-CF05-89B8-98A56B36DD43</generatorID>
+<ownerDesignName>CONCEPTUAL AND RELATIONAL MODEL(AMIR AND KYAW)</ownerDesignName>
+<referredTableLongName>GUEST</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3C14A32B-E1D4-03C9-C553-9EC2914C4EE3</referredTableID>
+<keyObject>4AE2BF8C-FDF9-A20D-9E17-CEC0BDBFC63B</keyObject>
+<referredKeyID>4AE2BF8C-FDF9-A20D-9E17-CEC0BDBFC63B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>USER_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

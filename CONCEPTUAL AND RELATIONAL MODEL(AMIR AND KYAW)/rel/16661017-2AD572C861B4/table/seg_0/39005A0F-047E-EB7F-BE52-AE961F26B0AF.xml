@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="39005A0F-047E-EB7F-BE52-AE961F26B0AF" name="ACCOUNT">
+<createdBy>ASUS</createdBy>
+<createdTime>2020-03-12 03:19:48 UTC</createdTime>
+<generatorID>09C96950-42F0-4557-AD9B-945173A934FB</generatorID>
+<ownerDesignName>CONCEPTUAL AND RELATIONAL MODEL(AMIR AND KYAW)</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ACCOUNT_NUMBER" id="470686EC-8374-3525-51B7-5F3A45AC43F1">
+<createdBy>ASUS</createdBy>
+<createdTime>2020-03-12 03:19:48 UTC</createdTime>
+<generatorID>21C00ABA-F0C9-98BC-40F7-DD88721ABFAA</generatorID>
+<ownerDesignName>CONCEPTUAL AND RELATIONAL MODEL(AMIR AND KYAW)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ACCOUNT_HOLDER" id="9A391C2E-B966-7EE6-8711-7F302E89B47B">
+<createdBy>ASUS</createdBy>
+<createdTime>2020-03-12 03:19:48 UTC</createdTime>
+<generatorID>60AE52D2-D88E-E11A-C727-D98CA5915E3D</generatorID>
+<ownerDesignName>CONCEPTUAL AND RELATIONAL MODEL(AMIR AND KYAW)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USER_USER_ID" id="5DF897DE-62C9-3352-1F5C-ADEFFC013B5B">
+<createdBy>ASUS</createdBy>
+<createdTime>2020-03-12 03:19:48 UTC</createdTime>
+<generatorID>C4266C5D-FC5E-DFEF-7BA3-8EBC8A3BC73C</generatorID>
+<ownerDesignName>CONCEPTUAL AND RELATIONAL MODEL(AMIR AND KYAW)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1C8EBE6F-03EF-DFB1-A581-6802B2319108" referredColumn="00ED0D86-9BF7-EEAB-99C7-D10667B4CA2D"/>
+</associations>
+</Column>
+<Column name="BANK_BANK_NAME" id="39D0BCD6-A745-B117-B89F-BC36CBEC616A">
+<createdBy>ASUS</createdBy>
+<createdTime>2020-03-17 02:53:00 UTC</createdTime>
+<ownerDesignName>CONCEPTUAL AND RELATIONAL MODEL(AMIR AND KYAW)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C11EFAB3-F2F7-9B9E-E78B-C66608ECCC40" referredColumn="1DEB294C-2987-A515-79B7-AF98FB298276"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7E242503-5041-2260-1312-264B0D61C785" name="ACCOUNT_PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2020-03-12 03:19:48 UTC</createdTime>
+<generatorID>31AF0ADB-259E-BEFE-05C3-A3CDF034385B</generatorID>
+<ownerDesignName>CONCEPTUAL AND RELATIONAL MODEL(AMIR AND KYAW)</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="470686EC-8374-3525-51B7-5F3A45AC43F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3BA44FA8-FE12-F236-F735-82057B4F4568" name="ACCOUNT_USER_FK">
+<createdBy>ASUS</createdBy>
+<createdTime>2020-03-12 03:19:48 UTC</createdTime>
+<generatorID>9B959889-D74B-7C52-0ADE-CC6AFAADE9EC</generatorID>
+<ownerDesignName>CONCEPTUAL AND RELATIONAL MODEL(AMIR AND KYAW)</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5DF897DE-62C9-3352-1F5C-ADEFFC013B5B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="10BBC094-04B7-E0CC-FD13-0FC90837EBEA" name="ACCOUNT_BANK_FK">
+<createdBy>ASUS</createdBy>
+<createdTime>2020-03-17 02:53:00 UTC</createdTime>
+<ownerDesignName>CONCEPTUAL AND RELATIONAL MODEL(AMIR AND KYAW)</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="39D0BCD6-A745-B117-B89F-BC36CBEC616A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

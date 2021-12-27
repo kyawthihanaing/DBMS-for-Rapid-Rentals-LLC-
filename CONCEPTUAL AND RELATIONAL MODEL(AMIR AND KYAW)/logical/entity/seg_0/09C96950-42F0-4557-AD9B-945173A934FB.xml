@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="09C96950-42F0-4557-AD9B-945173A934FB" name="ACCOUNT">
+<createdBy>ASUS</createdBy>
+<createdTime>2020-03-04 03:00:10 UTC</createdTime>
+<ownerDesignName>CONCEPTUAL AND RELATIONAL MODEL(AMIR AND KYAW)</ownerDesignName>
+<engineerTo>
+<item key="16661017-87B5-3A22-349B-2AD572C861B4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ACCOUNT NUMBER" id="21C00ABA-F0C9-98BC-40F7-DD88721ABFAA">
+<createdBy>ASUS</createdBy>
+<createdTime>2020-03-04 03:00:17 UTC</createdTime>
+<ownerDesignName>CONCEPTUAL AND RELATIONAL MODEL(AMIR AND KYAW)</ownerDesignName>
+<engineerTo>
+<item key="16661017-87B5-3A22-349B-2AD572C861B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ACCOUNT_HOLDER" id="60AE52D2-D88E-E11A-C727-D98CA5915E3D">
+<createdBy>ASUS</createdBy>
+<createdTime>2020-03-04 03:00:32 UTC</createdTime>
+<ownerDesignName>CONCEPTUAL AND RELATIONAL MODEL(AMIR AND KYAW)</ownerDesignName>
+<engineerTo>
+<item key="16661017-87B5-3A22-349B-2AD572C861B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="USER_ID" id="C4266C5D-FC5E-DFEF-7BA3-8EBC8A3BC73C">
+<createdBy>ASUS</createdBy>
+<createdTime>2020-03-04 03:18:02 UTC</createdTime>
+<generatorID>9B959889-D74B-7C52-0ADE-CC6AFAADE9EC</generatorID>
+<ownerDesignName>CONCEPTUAL AND RELATIONAL MODEL(AMIR AND KYAW)</ownerDesignName>
+<engineerTo>
+<item key="16661017-87B5-3A22-349B-2AD572C861B4" value="true"/>
+</engineerTo>
+<referedAttribute>887D6C01-44DF-5FCA-A845-81F67CBA4F57</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BANK_NAME" id="B5879034-49B6-BC20-5B22-49AFF78004D2">
+<createdBy>ASUS</createdBy>
+<createdTime>2020-03-17 02:42:01 UTC</createdTime>
+<ownerDesignName>CONCEPTUAL AND RELATIONAL MODEL(AMIR AND KYAW)</ownerDesignName>
+<engineerTo>
+<item key="16661017-87B5-3A22-349B-2AD572C861B4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BANK_NAME1" id="A25C3A12-85FF-5327-6929-2A46C1CEC7AE">
+<createdBy>ASUS</createdBy>
+<createdTime>2020-03-17 02:44:09 UTC</createdTime>
+<generatorID>C9343664-84DE-A13E-424F-CEF02D0A0705</generatorID>
+<ownerDesignName>CONCEPTUAL AND RELATIONAL MODEL(AMIR AND KYAW)</ownerDesignName>
+<engineerTo>
+<item key="16661017-87B5-3A22-349B-2AD572C861B4" value="true"/>
+</engineerTo>
+<referedAttribute>E8958ECB-51D2-0296-3AAD-3E96D5108121</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="31AF0ADB-259E-BEFE-05C3-A3CDF034385B" name="ACCOUNT PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2020-03-04 03:00:31 UTC</createdTime>
+<ownerDesignName>CONCEPTUAL AND RELATIONAL MODEL(AMIR AND KYAW)</ownerDesignName>
+<engineerTo>
+<item key="16661017-87B5-3A22-349B-2AD572C861B4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>21C00ABA-F0C9-98BC-40F7-DD88721ABFAA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

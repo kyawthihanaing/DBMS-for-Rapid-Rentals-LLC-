@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="CONCEPTUAL AND RELATIONAL MODEL(AMIR AND KYAW)" id="924BEDCC-095E-F010-0BB4-EB9066419F3B" version="3.5">
+<createdBy>ASUS</createdBy>
+<createdTime>2020-02-22 11:46:07 UTC</createdTime>
+<ownerDesignName>ASSIGNMENT DATA MODEL</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>924BEDCC-095E-F010-0BB4-EB9066419F3B</designId>
+</OSDM_Design>
